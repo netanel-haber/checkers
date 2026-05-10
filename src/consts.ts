@@ -8,4 +8,4 @@ const EMPTY_VALUE = pieces.length - 1;
 
 const COMPUTER = Color.red;
 
-export { pieces, movingDys, eatingDys, colors, EMPTY_VALUE, COMPUTER };
+export { COMPUTER, colors, EMPTY_VALUE, eatingDys, movingDys, pieces };

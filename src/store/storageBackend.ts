@@ -1,4 +1,4 @@
-import { type SerializedState } from "../types";
+import type { SerializedState } from "../types";
 import { defaultSetup } from "../utils";
 
 const STATE = "state";
@@ -13,7 +13,7 @@ const fromLocalStorage = () => {
       throw new Error("State Not Found");
     }
     return JSON.parse(item);
-  } catch (ex) {}
+  } catch {}
 };
 const fromParams = () => {
   const urlParams = new URLSearchParams(window.location.search);

@@ -1,4 +1,4 @@
-import { EMPTY_VALUE, colors, pieces } from "./consts";
+import { colors, EMPTY_VALUE, pieces } from "./consts";
 import { Color, type Grid } from "./types";
 
 export function forEachCell(cb: (row: number, column: number) => void) {

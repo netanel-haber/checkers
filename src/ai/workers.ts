@@ -1,4 +1,4 @@
-import { type BoardState } from "../classes/BoardState";
+import type { BoardState } from "../classes/BoardState";
 
 import Worker from "./worker?worker";
 

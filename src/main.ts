@@ -1,18 +1,17 @@
+import { doAiMove } from "./ai/engine";
 import {
-  BoardState,
   allLegalEatingMovesForCell,
+  BoardState,
   didColorLose,
   generateGridUpdatesForMoveIfLegal,
 } from "./classes/BoardState";
 import { GridUpdate } from "./classes/GridUpdate";
 import { EMPTY_VALUE, pieces } from "./consts";
 import { dom, values } from "./dom/dom";
-import { stack } from "./stack";
-
-import { doAiMove } from "./ai/engine";
 import { toast } from "./dom/toast";
+import { stack } from "./stack";
 import { store } from "./store/store";
-import { type Cell, type SerializedState } from "./types";
+import type { Cell, SerializedState } from "./types";
 import { computeGridFromString, defaultSetup } from "./utils";
 
 function handleMove(

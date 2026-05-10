@@ -1,5 +1,5 @@
 import { EMPTY_VALUE } from "../consts";
-import { type Cell, type FinalCell } from "../types";
+import type { Cell, FinalCell } from "../types";
 
 export class GridUpdate {
   indices: Cell;

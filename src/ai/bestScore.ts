@@ -1,4 +1,4 @@
-import { type BoardState } from "../classes/BoardState";
+import type { BoardState } from "../classes/BoardState";
 import { Color } from "../types";
 import { assert, forEachCell, gridValToColor } from "../utils";
 

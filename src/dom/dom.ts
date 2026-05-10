@@ -1,11 +1,11 @@
-import { type BoardState } from "../classes/BoardState";
-import { EMPTY_VALUE, colors, pieces } from "../consts";
+import type { BoardState } from "../classes/BoardState";
+import { colors, EMPTY_VALUE, pieces } from "../consts";
 import { stack } from "../stack";
-import {
-  type Cell,
-  type EventCoords,
-  type EventMapSubset,
-  type StateControllers,
+import type {
+  Cell,
+  EventCoords,
+  EventMapSubset,
+  StateControllers,
 } from "../types";
 import { forEachCell } from "../utils";
 

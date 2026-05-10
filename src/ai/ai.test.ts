@@ -3,7 +3,7 @@ import { expect, it } from "vitest";
 import { BoardState } from "../classes/BoardState";
 import { Color } from "../types";
 import { computeGridFromString, defaultSetup } from "../utils";
-import { B, C, KING, R, S, calculateScore } from "./bestScore";
+import { B, C, calculateScore, KING, R, S } from "./bestScore";
 
 const base = new BoardState({
   grid: computeGridFromString(defaultSetup.grid),

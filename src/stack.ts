@@ -1,5 +1,5 @@
 import { store } from "./store/store";
-import { type SerializedState } from "./types";
+import type { SerializedState } from "./types";
 import { defaultSetup } from "./utils";
 
 let _stack = [store.serialized];

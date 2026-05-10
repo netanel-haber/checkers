@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "bunx @biomejs/biome check src",
-    "lint:fix": "bunx @biomejs/biome check --apply src",
+    "lint:fix": "bunx @biomejs/biome check --write src",
     "test": "vitest"
   },
   "repository": {
@@ -17,11 +17,11 @@
   "author": "Netanel Haber",
   "homepage": "https://github.com/netanel-haber/checkers#readme",
   "devDependencies": {
-    "@biomejs/biome": "1.4.1",
-    "pre-commit": "^1.2.2",
-    "typescript": "^5.3.3",
-    "vite": "^5.0.10",
-    "vitest": "^1.1.0"
+    "@biomejs/biome": "2.4.15",
+    "pre-commit": "^2.0.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.11",
+    "vitest": "^4.1.5"
   },
   "pre-commit": [
     "lint"

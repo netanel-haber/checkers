@@ -1,6 +1,6 @@
-import { type BoardState } from "../classes/BoardState";
+import type { BoardState } from "../classes/BoardState";
 import { COMPUTER } from "../consts";
-import { type Move, type StateControllers } from "../types";
+import type { Move, StateControllers } from "../types";
 
 import { enqueue } from "./workers";
 

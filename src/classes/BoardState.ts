@@ -1,12 +1,12 @@
 import { EMPTY_VALUE, eatingDys, movingDys, pieces } from "../consts";
-import {
-  type Cell,
-  type Color,
-  type FinalCell,
-  type Grid,
-  type Move,
-  type SerializedState,
-  type StartCell,
+import type {
+  Cell,
+  Color,
+  FinalCell,
+  Grid,
+  Move,
+  SerializedState,
+  StartCell,
 } from "../types";
 import { forEachCell, gridValToColor, oppositeColor } from "../utils";
 import { GridUpdate, type PotentialMoves } from "./GridUpdate";
